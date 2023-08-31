@@ -2,6 +2,7 @@
 import React, {useState} from "react";
 import Header from "./Header";
 import GradioApp from "./GradioApp";
+import Footer from "./Footer";
 import "./LandingPage.css";
 
 function LandingPage() {
@@ -136,55 +137,10 @@ function LandingPage() {
               </div>
             </div>
           </div>
-
-          {/* <div className="p-12">
-            <div className="flex">
-              <img
-                className="p-4"
-                src="https://firebasestorage.googleapis.com/v0/b/skin-lesios-react-app.appspot.com/o/project_files%2Ffaq.png?alt=media&token=d78c8771-7b30-4412-9adc-b4c1668ab435"
-                alt="faq"
-              ></img>
-              <h1 className="pt-8 font-bold text-3xl">Frequently Asked Questions</h1>
-            </div>
-
-            <div className="grid grid-cols-2 gap-4">
-              <div className="p-4">
-                <h1 className="font-bold pb-2">How accurate is the classifier</h1>
-                <p className="text-justify">
-                  By leveraging machine learning, our Skin Lesions Classifier achieves high accuracy
-                  rates, empowering you with a reliable tool.
-                </p>
-              </div>
-              <div className="p-4">
-                <h1 className="font-bold pb-2">Do I need special equipment?</h1>
-                <p className="text-justify">
-                  No. Our Skin Lesions Classifier works on your existing devices, making it a
-                  convenient and accessible tool for everyone.
-                </p>
-              </div>
-              <div className="p-4">
-                <h1 className="font-bold pb-2">Can I use it on any skin type?</h1>
-                <p className="text-justify">
-                  Our Skin Lesions Classifier is currently in development and has been trained on
-                  various skin types. While it is designed to work effectively across different skin
-                  types, its accuracy may vary and may not always provide accurate results for
-                  certain skin types.
-                </p>
-              </div>
-              <div className="p-4">
-                <h1 className="font-bold pb-2">Will my data be secured?</h1>
-                <p className="text-justify">
-                  The skin lesion classifier collects skin images exclusively for the purpose of
-                  performing diagnosis. These images are not stored anywhere but are immediately
-                  processed by the algorithm. Once the processing is complete, the images are
-                  promptly deleted, ensuring that your data remains confidential and protected.
-                </p>
-              </div>
-            </div>
-          </div> */}
         </div>
       )}
       {showGradioApp && <GradioApp />}
+      <Footer />
     </main>
   );
 }
