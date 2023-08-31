@@ -45,7 +45,7 @@ Rest assured that DermAI Scan prioritizes data security. The app collects skin i
 
 To experience the power of DermAI Scan, follow these steps:
 
-1. Visit the [DermAI Scan Website](https://derm-ai-18306acb6be7.herokuapp.com/) and click the "Get started" button.
+1. Visit the [DermAI Scan Website](https://dermai-scan.vercel.app/) and click the "Get started" button.
 
 2. Upload a skin lesion image for analysis.
 
